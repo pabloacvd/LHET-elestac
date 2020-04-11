@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modelo de forms</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./formularios.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <body class="is-preload">
+    <!-- Nav -->
+      <nav id="nav">
+        <ul class="container">
+          <li><a href="#top"></a></li>
+          <li><a href="#work">Nuevo examen</a></li>
+          <li><a href="#portfolio">Exámenes en proceso</a></li>
+          <li><a href="#contact">Resultados</a></li>
+        </ul>
+      </nav>
+      <article id="portfolio" class="wrapper style3">
+        <div class="container">
+          <header>
+            <h2>Modelo de formulario con preguntas</h2>
+            <p>Acá que el covid, que la distancia, que todo. <br />
+            Explicamos un poco de toda la cuestión.</p>
+          </header>
+          <div class="upform">
+  <form>
+    <div class="upform-header"></div>
+    <div class="upform-main">
+      <div class="input-block">
+        <div class="label">Pregunta 1 - Elegí una</div>
+        <div class="input-control">
+          <input id="toggle-on-q1" class="toggle toggle-left" name="q1" value="yes" type="radio">
+          <label for="toggle-on-q1" class="btn"><span>A</span> Esta</label>
+          <input id="toggle-off-q1" class="toggle toggle-right" name="q1" value="no" type="radio">
+          <label for="toggle-off-q1" class="btn"><span>B</span> O esta</label>
+        </div>
+      </div>
+
+      <div class="input-block">
+        <div class="label">Pregunta 2 - A ver ahora qué decís</div>
+        <div class="input-control">
+          <input id="toggle-on-q2" class="toggle toggle-left" name="q2" value="yes" type="radio">
+          <label for="toggle-on-q2" class="btn"><span>A</span> Sí</label>
+          <input id="toggle-off-q2" class="toggle toggle-right" name="q2" value="no" type="radio">
+          <label for="toggle-off-q2" class="btn"><span>B</span> No</label>
+        </div>
+      </div>
+
+      <div class="input-block">
+        <div class="label">¿Te gustó?</div>
+        <div class="input-control">
+          <input id="toggle-on-q3" class="toggle toggle-left" name="q3" value="yes" type="radio">
+          <label for="toggle-on-q3" class="btn"><span>A</span> Sí</label>
+          <input id="toggle-off-q3" class="toggle toggle-right" name="q3" value="no" type="radio">
+          <label for="toggle-off-q3" class="btn"><span>B</span> No</label>
+        </div>
+      </div>
+
+      <div class="input-block">
+        <div class="label">Desarrolle su fórmula para curar el coronavirus</div>
+        <div class="input-control">
+          <input type="text" class="required" autocomplete="off">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="upform-footer">
+      <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+    </div>
+  </form>
+</div>
+
+          <footer>
+            <p>¿Necesitás ayuda?</p>
+            <a href="#contact" class="button large scrolly">Hacé click acá</a>
+          </footer>
+        </div>
+      </article>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js'></script><script  src="./formularios.js"></script>
+</body>
+</html>
