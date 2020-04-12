@@ -1801,7 +1801,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fd887a;
+			background: #1b867e;
 		}
 
 		input[type="button"]:active,
@@ -1925,7 +1925,7 @@ input, select, textarea {
 		position: relative;
 		background: #38364a url("../../images/hero_image.png") border-box no-repeat;
 		background-size: 100% auto;
-		height: 40em;
+		height: 45em;
 		text-align: center;
 	}
 		#header > .container {
@@ -1939,7 +1939,6 @@ input, select, textarea {
 			display: table;
 			clear: both;
 		}
-
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
@@ -1961,6 +1960,16 @@ input, select, textarea {
 			font-size: 1.3em;
 			letter-spacing: 3px;
 			text-align: left;
+		}
+		#header > .containerDerecha{
+			margin-left:0%;
+		} 
+		.sombra{
+			box-shadow: 35px 35px white;
+		}
+		.heroImg img{
+			width:80%;
+			box-shadow: 1px 1px 1px grey;
 		}
 /* Nav */
 	#elestac{
@@ -2220,7 +2229,6 @@ input, select, textarea {
 			padding: 0;
 		}
 		#sidebar section{
-			margin-top: 3em !important;
 			font-size: 1.5em;
 			line-height: 1.2em;
 		}
@@ -2339,6 +2347,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 2em 0;
+				width: 95%;
 			}
 
 				#banner > .container {
@@ -2569,13 +2578,28 @@ input, select, textarea {
 			#sidebar {
 				padding-top: 6em;
 			}
+			#copyright span a{
+				font-size:1.3em;
+				line-height: 1.5em;
+			}
 
 	}
 
 /* Small */
-
+	@media screen and (max-width: 768px){
+		#header{background-size: cover;}
+		#banner{
+			width: 100%; top: -80px;
+		}
+		#banner p{font-size: 1.9em;line-height: 1.8em;}
+	}
 	@media screen and (max-width: 736px) {
 
+		#elestac{
+			top: 15px;
+			left: 100px;
+		}
+		#banner p{padding:10px;}
 		/* Basic */
 
 			body, input, textarea, select {
