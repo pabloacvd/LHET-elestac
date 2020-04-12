@@ -140,7 +140,6 @@ input, select, textarea {
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		color: #666;
 		text-decoration: none;
-		border-bottom: solid 1px #ddd;
 	}
 
 		a strong {
@@ -1856,9 +1855,10 @@ input, select, textarea {
 	}
 	.zoomImg{
 		padding-right: 1.1em;
+		margin-bottom: 0;
 	}
 	.celeste{
-		background-color: #daeff3;
+		background-color: #e6f6f6;
 		margin-left: 0;
 	}
 	.box.excerpt .date {
@@ -2592,6 +2592,9 @@ input, select, textarea {
 			width: 100%; top: -80px;
 		}
 		#banner p{font-size: 1.9em;line-height: 1.8em;}
+		.celeste .actions{
+			padding-right: 20px;
+		}
 	}
 	@media screen and (max-width: 736px) {
 
@@ -2754,5 +2757,37 @@ input, select, textarea {
 					margin-left: 0;
 					border-left: 0;
 				}
+
+	}
+	@media screen and (max-width: 500px){
+		#sidebar{
+			padding-left: 15px;
+		}
+		.box header{
+			height: 16em;
+		}
+		#header .container{
+		    float: none;
+		    width: 80%;
+		    padding-bottom: 0;
+		    margin: 0 auto;
+		}
+		#banner{
+			top:50px;
+		}
+		#header{height: auto;}
+		#copyright{
+			padding-top: 30px;
+		}
+		#copyright span{
+			padding: 1em;
+			width: 100%;
+			margin: 15px auto;	
+			float: none;
+		}
+		#copyright span a{
+			font-size:2em;
+			line-height: 2em;
+		}
 
 	}
